@@ -52,6 +52,11 @@ body {
     border: none;
 }
 
+.link {
+    float: right;
+    color: black;
+}
+
 .error {
     display: none;
     padding: 1rem;
