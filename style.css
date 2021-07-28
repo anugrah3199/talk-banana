@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&family=Tourney:wght@500&display=swap');
 :root {
-    --background-color: #F0CB4D;
+    --background-yellow: #F0CB4D;
+    --card-color: #ffe692;
     --primary-color: #496985;
 }
 
 body {
     margin: 0;
     font-family: 'Asap', sans-serif;
-    background-color: var(--background-color);
+    background-color: var(--card-color);
+    padding: 5rem;
 }
 
 .container {
     margin: auto;
-    margin-top: 3rem;
-    text-align: center;
+    box-sizing: border-box;
+    background-color: var(--background-yellow);
     max-width: 700px;
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .container h1 {
@@ -22,28 +27,36 @@ body {
 }
 
 .container textarea {
+    box-sizing: border-box;
     margin-top: 1rem;
     border-radius: 0.5rem;
     width: 100%;
-    height: 25vh;
+    height: 20vh;
+    resize: vertical;
     padding: 0.5rem;
     font-size: 1rem;
     font-family: 'Asap', sans-serif;
 }
 
 .container button {
-    margin: auto;
+    width: 100%;
     margin-top: 1rem;
+    font-family: 'Asap', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 1rem 0;
     display: block;
     background-color: var(--primary-color);
-    padding: 1rem;
     border-radius: 0.5rem;
     color: white;
     border: none;
 }
 
 .container .result {
+    display: none;
     margin-top: 1rem;
-    background-color: var(--primary-color);
-    max-height: 2rem;
+    height: 20vh;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
 }
