@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: 'Asap', sans-serif;
     background-color: var(--card-color);
-    padding: 5rem;
+    padding: 1rem;
 }
 
 .container {
