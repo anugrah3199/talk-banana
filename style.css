@@ -16,7 +16,7 @@ body {
     margin: auto;
     box-sizing: border-box;
     background-color: var(--background-yellow);
-    max-width: 700px;
+    max-width: 100%;
     padding: 1.5rem 1rem;
     border-radius: 1rem;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -50,6 +50,13 @@ body {
     border-radius: 0.5rem;
     color: white;
     border: none;
+}
+
+.error {
+    display: none;
+    padding: 1rem;
+    background-color: rgba(255, 93, 93, 0.384);
+    border-radius: 0.4rem;
 }
 
 .container .result {
